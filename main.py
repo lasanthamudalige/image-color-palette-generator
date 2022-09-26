@@ -22,6 +22,8 @@ def home():
 
     frequent_colors = get_colors(sample_image, 10)
 
+    delete_uploaded_images()
+
     return render_template("index.html", image=sample_image, colors=frequent_colors, year=current_year)
 
 
@@ -67,6 +69,14 @@ def get_colors(image_file, num_of_colors):
 
 def rgb2hex(r, g, b):
     return "#{:02x}{:02x}{:02x}".format(r, g, b)
+
+
+def delete_uploaded_images():
+    files_path = os.listdir(IMG_FOLDER)
+
+    for file in files_path:
+        if file != "thunderstorm.jpg":
+            os.remove(f"{IMG_FOLDER}/{file}")
 
 
 if __name__ == "__main__":
