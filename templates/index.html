@@ -22,6 +22,8 @@
       <div class="container text-center">
         <h2 class="pt-2">Demo</h2>
         <img src="{{ image }}" class="rounded w-50 pt-4 pb-5" alt="Image">
+
+        <h4 class="mt-2 mb-4">Top 10 most common colors</h4>
         
         <table class="table table-hover w-50 m-auto mb-5">
           <thead>
@@ -33,7 +35,7 @@
           <tbody>
             {% for color in colors %}
             <tr>
-              <td style="background-color: {{color}};"></td>
+              <td style="background-color: {{color}}"></td>
               <td>{{ color }}</td>
             {% endfor %}
             </tr>
