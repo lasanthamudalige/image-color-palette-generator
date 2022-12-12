@@ -1,4 +1,4 @@
-# Image-color-palette-generator
+# Image color palette generator
 <ul>
   <li>After user select an image. page is going to reload with 10 most common color in that image.</li>
 </ul>
