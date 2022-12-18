@@ -1,7 +1,11 @@
-# Image color palette generator
-<ul>
-  <li>After user select an image. page is going to reload with 10 most common color in that image.</li>
-</ul>
+# ImagePalette
 
-<h2>Preview</h2>
+Image color palette generator using flask and pillow.
+
+## Description:
+
+User can open a file and press enter button. After that using pillow package the program is going to list top 10 colors used in the image an show it in a table.
+
+### Preview:
+
 <img src="https://user-images.githubusercontent.com/91461938/192189448-3c8abd06-3a1b-4554-b134-0ac69e3173c9.gif">
