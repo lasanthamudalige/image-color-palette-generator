@@ -25,10 +25,10 @@ From your command line run:
 
 ```
 # Clone this repository
-$ git clone https://github.com/lasanthamudalige/image-watermarking-desktop-app.git
+$ git clone https://github.com/lasanthamudalige/image-color-palette-generator.git
 
 # Go into the repository
-$ cd image-watermarking-desktop-app/
+$ cd image-color-palette-generator/
 
 # To install all dependencies
 $ pip install -r requirements.txt
