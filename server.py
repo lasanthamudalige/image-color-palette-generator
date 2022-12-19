@@ -7,6 +7,7 @@ from collections import Counter
 
 app = Flask(__name__)
 
+# Add images folder as a static folder
 IMG_FOLDER = os.path.join('static', 'images')
 app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 
