@@ -1,11 +1,53 @@
 # ImagePalette
 
-Image color palette generator using flask and pillow.
+Image color palette generator program using [Python](https://www.python.org/), [Pillow](https://python-pillow.org/) and [Flask](https://flask.palletsprojects.com/en/2.2.x/)
 
-## Description:
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Usage](#usage)
 
-User can open a file and press enter button. After that using pillow package the program is going to list top 10 colors used in the image an show it in a table.
+## General info
 
-### Preview:
+This program will detect 10 most used colors in an image and show it in a color palette as color and the Hex code. 
 
-<img src="https://user-images.githubusercontent.com/91461938/192189448-3c8abd06-3a1b-4554-b134-0ac69e3173c9.gif">
+## Technologies
+Project is created with:
+* Python version: 3.10.6
+* Pillow version: 9.0.1
+* Flask version: 9.0.1
+	
+## Setup
+
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer.\
+From your command line run:
+
+```
+# Clone this repository
+$ git clone https://github.com/lasanthamudalige/image-watermarking-desktop-app.git
+
+# Go into the repository
+$ cd image-watermarking-desktop-app/
+
+# To install all dependencies
+$ pip install -r requirements.txt
+```
+
+
+## Usage
+
+To run this project in Linux/Unix:
+
+```
+$ python3 main.py
+```
+
+To run this project in Windows:
+
+```
+$ python main.py
+```
+
+## License 
+This project is open source and available under the [MIT License](https://github.com/lasanthamudalige/image-color-palette-generator/blob/main/license).
